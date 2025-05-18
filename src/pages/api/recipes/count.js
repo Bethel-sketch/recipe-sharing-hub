@@ -1,4 +1,7 @@
 // src/pages/api/recipes/count.js
+console.log('🔑 Supabase URL:', process.env.NEXT_PUBLIC_SUPABASE_URL)
+console.log('🔑 Supabase Key starts with:', process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.slice(0, 10))
+
 import { supabase } from '../../../lib/supabaseClient';
 
 export default async function handler(req, res) {
