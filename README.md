@@ -82,12 +82,6 @@ No automated tests have been written yet. Future improvements include adding Jes
 
 ---
 
-## 📦 Deployment
+📦 Deployment
 
-The app is configured for **Vercel**. After pushing to `main`:
-
-1. Connect the GitHub repo in Vercel.
-2. Set environment variables in Vercel Dashboard (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`).
-3. Deploy the `main` branch.
-
-The live site will be available at `https://recipe-sharing-hub.vercel.app`.
+While live deployment is under troubleshooting, you can run the app locally as detailed above. Once deployment issues are resolved, the live URL will be updated here.
