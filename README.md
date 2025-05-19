@@ -90,4 +90,4 @@ The app is configured for **Vercel**. After pushing to `main`:
 2. Set environment variables in Vercel Dashboard (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`).
 3. Deploy the `main` branch.
 
-Your live site will be available at `https://recipe-sharing-hub.vercel.app` (or your custom domain).
+The live site will be available at `https://recipe-sharing-hub.vercel.app`.
